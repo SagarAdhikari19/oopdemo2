@@ -33,13 +33,3 @@ class Employee{
     }
 }
 
-class EProgram{
-
-    public static void Main(string[] args){
-        Employee sagar = new Employee(1,"Sagar Adhikari",400000);
-        sagar.salarycal();
-        Console.ReadLine();
-
-
-    }
-}
