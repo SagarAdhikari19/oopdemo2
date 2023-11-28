@@ -12,8 +12,23 @@ class EProgram{
         sagar.age=21;
         sagar.PhoneNumber="9808850889";
         sagar.rollnum=9;
+
+        Teacher ram=new Teacher();
+        ram.age=27;
+        ram.name="ram hari";
+        ram.PhoneNumber="9812312312";
+        ram.salary=12344;
+        ram.sub="english";
         
 
 
+   sagar.PrintDetails();
+   Console.WriteLine();
+   ram.PrintDetails();
+ 
+
     }
+
+ 
+
 }
